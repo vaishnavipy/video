@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+video{
+    width:100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+
+
+
+#controls{
+    position: absolute;
+    bottom:30px;
+    border-radius: 10px;
+    background-color: white;
+    
+    
+    margin: 20px;
+    color:#49A6E9;
+    cursor: pointer;
+}
+span{
+    padding:20px 2px;
+    font-size: 22px;
+   
+
+}
+#play,#pause{
+    padding-left:20px;
+}
+
+#overlay{
+    width:50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+  top:0px;
+    background-color:#49A6E9;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.5s;
+   
+}
+.toggle_overlay{
+    transition: transform 1s;
+    transform: translate(100%,0);
+
+}
+#content{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top:0px;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    background: rgba(0,0,0,0.5);
+    width:100vw;
+    height:100vh;
+}
+#content h1{
+    transform:translate(0,40vh);
+}
+
